@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Mercasol</title>
+<link rel="icon" href="imagens/phone.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h1>Cadastrar novo produto</h1>
+	<form name="frmContato" action="insert">
+		<table>
+			<tr>
+				<td><input type="type=text" name="nome" placeholder="Nome" class="caixa-1"></td>
+			</tr>
+			<tr>
+				<td><input type="type=text" name="quantidade" placeholder="Quantidade" class="caixa-1"></td>
+			</tr>
+			<tr>
+				<td><input type="type=text" name="tipo" placeholder="Tipo" class="caixa-1"></td>
+			</tr>
+		</table>
+		<input type="button" value="Adicionar Produto" class="botao-1" onclick="validar()" >
+	</form>
+	<script src="scripts/validador.js"></script>
+</body>
+</html>
