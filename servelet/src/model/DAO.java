@@ -15,7 +15,7 @@ public class DAO {
 	// metodo de conexão
 
 	private String user = "root";
-	private String password = "marcospaulo14";
+	private String password = "xxxxxxxx";
 
 	private Connection conectar() {
 		Connection con = null;
